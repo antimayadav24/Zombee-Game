@@ -122,5 +122,5 @@ function restartGame() {
 }
 
 // Start game loop and zombie spawner (slow down spawn rate)
-setInterval(spawnZombie, 2300); // Spawn zombies every 2 sec (adjusted)
+setInterval(spawnZombie, 3000); // Spawn zombies every 2 sec (adjusted)
 updateGame(); // Start animation loop
